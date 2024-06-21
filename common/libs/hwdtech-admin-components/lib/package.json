@@ -1,0 +1,30 @@
+{
+  "name": "hwdtech-admin-components",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./index.d.ts",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "yarn install --silent && rollup -c",
+    "only-build": "rollup -c",
+    "build-watch": "rollup -c -w"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "peerDependencies": {
+    "axios": "^0.21.1",
+    "lazysizes": "^5.3.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "clsx": "^1.1.1",
+    "react-use": "^17.3.1",
+    "react-slick": "0.28.1",
+    "crypto-js": "^4.1.1",
+    "next-seo": "^4.24.0",
+    "@reach/dialog": "^0.16.0"
+  }
+}

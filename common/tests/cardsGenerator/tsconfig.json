@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "baseUrl": "."
+  },
+  "include": ["src", "utils", "__tests__", "index.d.ts"],
+  "exclude": ["dist", "node_modules"]
+}

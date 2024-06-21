@@ -1,0 +1,11 @@
+.next
+out
+
+.netlify
+.vercel
+
+.env
+
+hwdtech-admin-components/lib
+hwdtech-admin-components/.storybook
+

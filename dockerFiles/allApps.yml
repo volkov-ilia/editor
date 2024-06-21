@@ -1,0 +1,195 @@
+version: "3.9"
+services:
+  nginx:
+    container_name: nginx
+    image: nginx:1.21.6-alpine
+    volumes:
+      - ../nginx/default.conf.template:/etc/nginx/templates/default.conf.template
+      - ../nginx/certificates/localhost.crt:/etc/ssl/certs/localhost.crt
+      - ../nginx/certificates/localhost.key:/etc/ssl/private/localhost.key
+    ports:
+      - "80:80"
+      - "443:443"
+    env_file:
+      - .env
+    networks:
+      default:
+        aliases:
+          - tools.hwdtech.ru
+    depends_on:
+      - auth-api
+      - bin-api
+      - auth-client
+      - admin
+      - api
+      - article-editor
+      - publish-service
+      - schedule-service
+  admin:
+    container_name: admin
+    build:
+      context: ..
+      dockerfile: ./admin/dev.Dockerfile
+      args:
+        - api_content=${API_CONTENT}
+        - base_url=${BASE_URL}
+    volumes:
+      - ../admin:/admin
+      - /admin/node_modules
+      - /admin/.next
+      - ../common:/common
+      - /common/utils/APIRequests/node_modules
+      - /common/logs/node_modules
+    env_file:
+      - .env
+    ports:
+      - ${ADMIN_PORT}:${INNER_ADMIN_PORT}
+    command: ["yarn", "dev"]
+  auth-client:
+    container_name: auth-client
+    build:
+      context: ..
+      dockerfile: ./auth-client/dev.Dockerfile
+      args:
+        - api_auth_client=${API_AUTH_CLIENT}
+        - api_content=${API_CONTENT}
+        - base_url=${BASE_URL}
+    volumes:
+      - ../auth-client:/auth-client
+      - /auth-client/node_modules
+      - /auth-client/.next
+      - ../common:/common
+      - /common/utils/APIRequests/node_modules
+      - /common/logs/node_modules
+    env_file:
+      - .env
+    ports:
+      - ${AUTH_CLIENT_PORT}:${INNER_AUTH_CLIENT_PORT}
+    command: ["yarn", "dev"]
+  mongodb:
+    container_name: mongodb
+    hostname: mongodb
+    user: 999:999
+    image: mongo:5.0.7
+    volumes:
+      - ../mongodb/database:/data/db
+      - ../mongodb/mongodb:/home/mongodb
+    env_file:
+      - .env
+    ports:
+      - ${DB_PORT_IN}:${DB_PORT_OUT}
+  api:
+    container_name: api
+    hostname: api
+    build:
+      context: ..
+      dockerfile: ./API/dev.Dockerfile
+    image: "api:v0.001.00"
+    volumes:
+      - ../API:/API
+      - /API/node_modules
+      - /API/dist
+      - ../common:/common
+      - /common/utils/APIRequests/node_modules
+      - /common/logs/node_modules
+    env_file:
+      - .env
+    ports:
+      - ${API_PORT}:${INNER_API_PORT}
+    command: ["yarn", "start:dev"]
+    depends_on:
+      - mongodb
+  auth-api:
+    container_name: auth-api
+    build:
+      context: ..
+      dockerfile: ./auth-api/dev.Dockerfile
+    volumes:
+      - ../auth-api:/auth-api
+      - /auth-api/node_modules
+      - /auth-api/dist
+      - ../common:/common
+      - /common/utils/APIRequests/node_modules
+      - /common/logs/node_modules
+    env_file:
+      - .env
+    ports:
+      - ${AUTH_API_PORT}:${INNER_AUTH_API_PORT}
+    command: ["yarn", "start:dev"]
+  article-editor:
+    container_name: article-editor
+    build:
+      context: ..
+      dockerfile: ./article-editor/dev.Dockerfile
+      args:
+        - api_article_editor=${API_ARTICLE_EDITOR}
+        - base_url=${BASE_URL}
+        - api_articles=${API_ARTICLES}
+    env_file:
+      - ../article-editor/.env
+      - .env
+    environment:
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+    volumes:
+      - ../article-editor:/article-editor
+      - /article-editor/node_modules
+      - /article-editor/.next
+      - ../common:/common
+      - /common/utils/APIRequests/node_modules
+      - /common/logs/node_modules
+    ports:
+      - ${ARTICLE_EDITOR_PORT}:${INNER_ARTICLE_EDITOR_PORT}
+    command: ["yarn", "dev"]
+  bin-api:
+    container_name: bin-api
+    build:
+      context: ..
+      dockerfile: ./bin-api/dev.Dockerfile
+    image: "bin-api:v0.001.00"
+    volumes:
+      - ../bin-api:/bin-api
+      - /bin-api/node_modules
+      - /bin-api/dist
+      - ../common:/common
+      - /common/utils/APIRequests/node_modules
+      - /common/logs/node_modules
+    env_file:
+      - .env
+    ports:
+      - ${BIN_API_PORT}:${INNER_BIN_API_PORT}
+    command: ["yarn", "start:dev"]
+  schedule-service:
+    container_name: schedule-service
+    build:
+      context: ..
+      dockerfile: ./schedule-service/dev.Dockerfile
+    volumes:
+      - ../schedule-service:/schedule-service
+      - /schedule-service/node_modules
+      - /schedule-service/dist
+      - ../common:/common
+      - /common/utils/APIRequests/node_modules
+      - /common/logs/node_modules
+    env_file:
+      - .env
+    ports:
+      - ${SCHEDULE_SERVICE_PORT}:${INNER_SCHEDULE_SERVICE_PORT}
+    command: ["yarn", "start:dev"]
+  publish-service:
+    container_name: publish-service
+    build:
+      context: ..
+      dockerfile: ./publish-service/dev.Dockerfile
+    volumes:
+      - ../publish-service:/publish-service
+      - /publish-service/node_modules
+      - /publish-service/dist
+      - ../common:/common
+      - /common/utils/APIRequests/node_modules
+      - /common/logs/node_modules
+      - ../bin-api/img:/img
+    env_file:
+      - .env
+    ports:
+      - ${HWD_SERVICE_PORT}:${INNER_HWD_SERVICE_PORT}
+    command: ["yarn", "start:dev"]

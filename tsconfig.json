@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["dom", "dom.iterable"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "importHelpers": true,
+    "jsx": "react"
+  },
+  "include": [
+    "admin",
+    "API",
+    "One-TimeApplication",
+    "common",
+    ".babelrc",
+    "lint-staged.pre-commit.js",
+    ".eslintrc.js",
+    "prettier.config.js",
+    "One-TimeApplication/.eslintrc.js",
+    "admin/.eslintrc.js"
+  ],
+  "exclude": ["node_modules"]
+}

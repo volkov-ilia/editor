@@ -1,0 +1,20 @@
+workflow:
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+
+variables:
+  YEL_B: \e[1;93m
+  NC: \033[0m
+  COMMON_FOLDER: common
+
+admin:
+  stage: build
+  trigger:
+    include: admin/.gitlab-ci.yml
+    strategy: depend
+
+API:
+  stage: build
+  trigger:
+    include: API/.gitlab-ci.yml
+    strategy: depend

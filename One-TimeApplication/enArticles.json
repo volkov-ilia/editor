@@ -1,0 +1,26 @@
+[
+  {
+    "title": "The dark side of Agile",
+    "tags": ["agile", "analytics", " business_process_improvement", "HWdTech", "it", "office", " useful tips"],
+    "imgSrc": "//images.ctfassets.net/13g5no3omm60/7GncEdqyEMnPf17KuTjrHd/6e7102ec0ab5e8e48c250e6199ae2a35/workplace-1245776_1920.jpg",
+    "description": "Agile does not improve the speed of software development projects, so switching to Agile is not enough to achieve success on large projects.",
+    "note": "",
+    "version": 1,
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-01-12T07:54:43.557Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:52:00.601Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "agile-dark-side"
+      }
+    ]
+  }
+]

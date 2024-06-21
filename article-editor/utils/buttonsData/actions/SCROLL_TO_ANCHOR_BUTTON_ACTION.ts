@@ -1,0 +1,3 @@
+const SCROLL_TO_ANCHOR_BUTTON_ACTION = "scrollToAnchor"
+
+export default SCROLL_TO_ANCHOR_BUTTON_ACTION

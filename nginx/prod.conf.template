@@ -1,0 +1,86 @@
+server {
+    listen 80;
+    server_name ${DOMAIN_NAME};
+
+    location / {
+        return 301 ${BASE_URL}$request_uri;
+    }
+}
+
+map $uri $export_url {
+    "~.*/auth-api/v.*/auth"   $uri;
+    "~.*/bin-api/images/.*"   $uri;
+    "~.*/_next"   $uri;
+    "~.*/favicon" $uri;
+    default "/auth/";
+}
+
+
+server {
+    listen 443 ssl;
+
+    add_header Content-Security-Policy "script-src 'unsafe-eval' ${BASE_URL} https://accounts.google.com; frame-src 'self' ${BASE_URL} https://codesandbox.io https://www.youtube.com/ https://www.gitlab.com https://www.github.com https://apis.google.com https://accounts.google.com; object-src 'self';" always;
+    add_header X-Frame-Options SAMEORIGIN;
+    add_header X-XSS-Protection "1; mode=block";
+    add_header X-Content-Type-Options nosniff;
+
+    server_name ${DOMAIN_NAME};
+
+    add_header X-Robots-Tag "noindex" always;
+
+    # ssl сертификаты
+    ssl_certificate /etc/letsencrypt/live/tools.hwdtech.ru/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/tools.hwdtech.ru/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    if ( $cookie_internal_token = "" ) {
+        rewrite ^(.*)$ $export_url break;
+    }
+
+    location /auth/ {
+        rewrite /auth/(.*)$ /$1 break;
+        proxy_pass http://auth-client:${INNER_AUTH_CLIENT_PORT};
+        proxy_set_header Host $host;
+    }
+
+    location /content/ {
+        rewrite /content/(.*)$ /$1 break;
+        proxy_pass http://admin:${INNER_ADMIN_PORT};
+        proxy_set_header Host $host;
+    }
+
+    location /article-editor/ {
+        rewrite /article-editor/(.*)$ /$1 break;
+        proxy_pass http://article-editor:${INNER_ARTICLE_EDITOR_PORT};
+        proxy_set_header Host $host;
+    }
+
+    location /API/ {
+        rewrite /API/(.*)$ /$1 break;
+        proxy_pass http://api:${INNER_API_PORT};
+        proxy_set_header Host $host;
+    }
+
+    location /auth-api/ {
+        rewrite /auth-api/(.*)$ /$1 break;
+        proxy_pass http://auth-api:${INNER_AUTH_API_PORT};
+        proxy_set_header Host $host;
+    }
+
+    location /bin-api/ {
+        rewrite /bin-api/(.*)$ /$1 break;
+        proxy_pass http://bin-api:${INNER_BIN_API_PORT};
+        proxy_set_header Host $host;
+    }
+    location /publish-service/ {
+        rewrite /publish-service/(.*)$ /$1 break;
+        proxy_pass http://publish-service:${INNER_HWD_SERVICE_PORT};
+        proxy_set_header Host $host;
+    }
+    location /schedule-service/ {
+        rewrite /schedule-service/(.*)$ /$1 break;
+        proxy_pass http://schedule-service:${INNER_SCHEDULE_SERVICE_PORT};
+        proxy_set_header Host $host;
+    }
+}

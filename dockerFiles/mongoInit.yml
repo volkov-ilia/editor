@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  mongodb:
+    container_name: mongodb
+    build:
+      context: ..
+      dockerfile: ./mongodb/Dockerfile
+    env_file:
+      - ./.env
+    volumes:
+      - ../mongodb/database:/data/db
+      - ../mongodb/scripts:/API/mongodb

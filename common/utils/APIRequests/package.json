@@ -1,0 +1,34 @@
+{
+  "name": "api-requests",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "fmt": "prettier --write '**/*.ts'",
+    "fmt:check": "prettier --check '**/*.ts'",
+    "lint": "tsc --noemit --skipLibCheck && eslint . --ext ts"
+  },
+  "lint-staged": {
+    "*.(t|j)s": [
+      "yarn lint",
+      "yarn fmt"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "eslint": "7.30.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^11.0.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn fmt && lint-staged",
+      "pre-push": "yarn lint && yarn fmt:check"
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.8",
+    "axios": "^0.26.1"
+  }
+}

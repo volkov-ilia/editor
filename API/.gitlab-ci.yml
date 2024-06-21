@@ -1,0 +1,30 @@
+image: node:16.14
+
+workflow:
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+
+variables:
+  PROJECT_NAME: API
+  PROJECT_FOLDER: API
+
+stages:
+  - init
+  - build
+  - test
+
+install:
+  stage: init
+  script: sh init.sh
+  artifacts:
+    paths:
+      - "$PROJECT_FOLDER/node_modules/"
+
+build_api:
+  stage: build
+  script: sh build.sh
+  needs:
+    - install
+#no tests because of failed pipeline (need code from 194 task)
+#test_api:
+#  script: sh tests.sh

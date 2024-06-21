@@ -1,0 +1,151 @@
+version: "3.9"
+services:
+  nginx:
+    build:
+      context: ..
+      dockerfile: ./nginx/Dockerfile
+    volumes:
+      - ../nginx/prod.conf.template:/etc/nginx/templates/prod.conf.template
+      - ../nginx/certbot/conf:/etc/letsencrypt
+      - ../nginx/certbot/www:/var/www/certbot
+    ports:
+      - "80:80"
+      - "443:443"
+    env_file:
+      - .env
+    depends_on:
+      - auth-api
+      - auth-client
+      - admin
+      - api
+      - article-editor
+      - publish-service
+      - schedule-service
+  admin:
+    container_name: admin
+    build:
+      context: ..
+      dockerfile: ./admin/prod.Dockerfile
+      args:
+        - client_id=${CLIENT_ID}
+        - api_auth=${API_AUTH}
+        - base_url=${BASE_URL}
+        - api_version=${API_VERSION}
+        - api_content=${API_CONTENT}
+    image: admin
+    env_file:
+      - .env
+    ports:
+      - ${INNER_ADMIN_PORT}
+    command: ["yarn", "start"]
+  auth-client:
+    container_name: auth-client
+    build:
+      context: ..
+      dockerfile: ./auth-client/prod.Dockerfile
+      args:
+        - client_id=${CLIENT_ID}
+        - api_auth=${API_AUTH}
+        - base_url=${BASE_URL}
+        - api_version=${API_VERSION}
+        - api_content=${API_CONTENT}
+        - api_auth_client=${API_AUTH_CLIENT}
+    image: auth-client
+    env_file:
+      - .env
+    ports:
+      - ${INNER_AUTH_CLIENT_PORT}
+    command: ["yarn", "start"]
+  mongodb:
+    container_name: mongodb
+    hostname: mongodb
+    user: 999:999
+    image: mongo:5.0.7
+    volumes:
+      - ../mongodb/database:/data/db
+      - ../mongodb/mongodb:/home/mongodb
+    env_file:
+      - .env
+    ports:
+      - ${DB_PORT_OUT}
+  api:
+    container_name: api
+    build:
+      context: ..
+      dockerfile: ./API/prod.Dockerfile
+    image: "api:v0.001.00"
+    env_file:
+      - .env
+    ports:
+      - ${INNER_API_PORT}
+    command: ["yarn", "start:prod"]
+    depends_on:
+      - mongodb
+  bin-api:
+    container_name: bin-api
+    build:
+      context: ..
+      dockerfile: ./bin-api/prod.Dockerfile
+    image: "bin-api:v0.001.00"
+    volumes:
+      - ../bin-api/img:/bin-api/img
+    env_file:
+      - .env
+    ports:
+      - ${INNER_BIN_API_PORT}
+    command: ["yarn", "start:prod"]
+  auth-api:
+    container_name: auth-api
+    build:
+      context: ..
+      dockerfile: ./auth-api/prod.Dockerfile
+    image: "auth-api:v0.001.00"
+    env_file:
+      - .env
+    ports:
+      - ${INNER_AUTH_API_PORT}
+    command: ["yarn", "start:prod"]
+  article-editor:
+    container_name: article-editor
+    build:
+      context: ..
+      dockerfile: ./article-editor/prod.Dockerfile
+      args:
+        - api_article_editor=${API_ARTICLE_EDITOR}
+        - base_url=${BASE_URL}
+        - api_articles=${API_ARTICLES}
+        - api_version=${API_VERSION}
+    env_file:
+      - ../article-editor/.env
+      - .env
+    ports:
+      - ${INNER_ARTICLE_EDITOR_PORT}
+    command: ["yarn", "start"]
+  schedule-service:
+    container_name: schedule-service
+    build:
+      context: ..
+      dockerfile: ./schedule-service/prod.Dockerfile
+    image: "schedule-service:v0.001.00"
+    env_file:
+      - .env
+    ports:
+      - ${INNER_SCHEDULE_SERVICE_PORT}
+    command: ["yarn", "start:prod"]
+    depends_on:
+      - mongodb
+  publish-service:
+    container_name: publish-service
+    build:
+      context: ..
+      dockerfile: ./publish-service/prod.Dockerfile
+    volumes:
+      - ../bin-api/img:/img
+    image: "publish-service:v0.001.00"
+    env_file:
+      - .env
+    ports:
+      - ${INNER_HWD_SERVICE_PORT}
+    command: ["yarn", "start:prod"]
+    depends_on:
+      - mongodb

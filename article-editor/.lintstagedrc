@@ -1,0 +1,17 @@
+{
+  "*.js": [
+    "prettier --write '**/*.js'",
+    "eslint --fix"
+  ],
+  ".{json,md}": [
+    "prettier --write"
+  ],
+  "*.ts": [
+     "prettier --write '**/*.ts'",
+     "eslint --fix"
+   ],
+  "*.tsx": [
+     "prettier --write '**/*.tsx'",
+     "eslint --fix"
+   ]
+}

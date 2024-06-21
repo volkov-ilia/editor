@@ -1,0 +1,23 @@
+{
+  "name": "hwdtech-ioc",
+  "version": "1.0.0",
+  "description": "IoC Container",
+  "main": "./index.cjs",
+  "module": "./index.esm.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "ioc",
+    "container",
+    "dependency",
+    "injection",
+    "control",
+    "dependency"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^4.5.4"
+  }
+}

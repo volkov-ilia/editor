@@ -1,0 +1,20 @@
+:root {
+  --indent-0: 0;
+  --indent-9: 2.25rem;
+  --indent-18: 4.5rem;
+  --indent-56: 14rem;
+  --indent-2-5: 0.625rem;
+  --indent-3: 0.75rem;
+}
+
+:root {
+  --light-gray-color: #d1d1d1;
+  --main-primary-color: #12b698;
+  --text-grey-color: #8e8c8c;
+  --text-white-color: #ffffff;
+  --gray-90-color: #cccccc;
+}
+
+:root {
+  --font-weight-bold: 700;
+}

@@ -1,0 +1,10 @@
+.idea
+.next
+node_modules
+coverage
+
+.env
+
+utils/dataFetching/LocalDataFetcher.ts
+__mocks__/mockedDataCards.ts
+pages/test.tsx

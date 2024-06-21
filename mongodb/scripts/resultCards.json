@@ -1,0 +1,1839 @@
+[
+  {
+    "title": "Slate Editor",
+    "tags": ["front-end", "it", "rich_text_editor", "slate"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/72nhd1xUP7JuQL5pheItYc/cf874c71f4ead07e7b0955562e7d1f41/______________1_.png",
+    "description": "Вы слышали про такой фреймворк? Если нет, то сейчас мы это исправим.",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-03-01T15:41:31.864Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-06-09T04:07:54.716Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "slateeditor"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "slate-editor"
+      }
+    ]
+  },
+  {
+    "title": "Accelerated Mobile Pages",
+    "tags": ["AMP-pages", "nextjs"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/3gzQelgfTVU1NCkpgIJ8en/bb83325002c7573f25f817702985e9b3/____________.png",
+    "description": "Как просто и быстро создать приложение, использующее AMP-страницы, с помощью Next.js.",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-03-18T23:26:54.624Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:55:52.267Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "amppages"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "amp-pages"
+      }
+    ]
+  },
+  {
+    "title": "Rich Text Editors",
+    "tags": ["front-end", "it", "rich_text_editor", "slate", "software_development", " useful tips"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/2FVJGB600IzilRaIP8JWJQ/865c5abf4b0907b1124671bd21d1b0d2/______________2_.png",
+    "description": "Обзор популярных фреймворков для создания Rich Text Editors",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-03-09T11:44:01.808Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:54:34.704Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "richtexteditors"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "editors"
+      }
+    ]
+  },
+  {
+    "title": "Вектор атаки на JWT токен",
+    "tags": ["information_security", "it", " useful tips", "Json Web Token", "security", "cyber attacks"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/33S5Vv0HDeNz0pI8PJRHYX/93aac4652509d38023a2ecf03961e217/____________.png",
+    "description": "Яков Лило, CTO Hello World! Technologies, рассказывает о Json Web Token, безопасности и кибератаках. Все совпадения с реальностью случайны или подтасованы.",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-02-18T08:59:26.613Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:50:33.725Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "jwttoken"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "jwttoken"
+      }
+    ]
+  },
+  {
+    "title": "Воровство клиентов: как простое веб-приложение может помочь",
+    "tags": ["cases", "customer theft", "web_application"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/WlUNJ1JDy47MvLAixm8tW/fa96d7e773465b6da8c04ca647d40815/glass-of-beer-3444480_1920.jpg",
+    "description": "Быстрое по реализации и эффективное решение, которое пресекло воровство клиентов и промышленный шпионаж на производстве пивоварен. Детали решения ниже.",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-01-12T07:21:16.957Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:49:00.455Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "breweries"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "espionage-in-the-brewery-industry"
+      }
+    ]
+  },
+  {
+    "title": "Как студенты смогли в 10 000 раз сократить количество багов",
+    "tags": ["cases", "Shewhart_control_charts"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/730v5UiYPFgo2t5eFuwomn/e97937540b06ef8140e5e14ace877d3e/entrepreneur-startup-start-up-man-planing-business-3.jpg",
+    "description": "Им помогли методы обнаружения разладки. Подробности в нашем кейсе.",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-01-12T06:30:25.946Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:47:09.005Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "10000"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "10000"
+      }
+    ]
+  },
+  {
+    "title": "Искусственный интеллект (AI) модерирует контент",
+    "tags": ["cases", "ai", "automatization"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/3Z6oBNvplkEN6P1B5cUtCk/5b8ca83796c37d28af667e05f271e713/code-1839406_1920.jpg",
+    "description": "Кейс: как искусственный интеллект (AI) и разумная автоматизация бизнес-процессов сократили время модерации контента с 24 часов до 30 секунд, а также где его применение обосновано, а где - может навредить",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-01-12T07:58:43.279Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:45:38.702Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "callmeai"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "call-me-ai"
+      }
+    ]
+  },
+  {
+    "title": "Автоматизация процессов дизайна c помощью Adobe",
+    "tags": ["cases", "automatization", "design"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/3VVeJH0wgDvPtH4CqUJ8lg/83b0f55d867d650b32576b6c880260d7/pencil-typography-black-design.jpg",
+    "description": "Как программная автоматизация работы в Photoshop и Illustrator дала +30% к производительности труда дизайнеров, а еще вывела некоторых менеджеров на чистую воду",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-01-12T07:42:11.180Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:43:32.814Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "designer"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "saving-private-designer"
+      }
+    ]
+  },
+  {
+    "title": "Four problems of software development complexity",
+    "tags": ["it", "theory", "software_development"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/6Lvf2pE16d0m4xJYF2MVMq/c79c40ca8fefe42fd73219b2ba4e5c3d/geometry-1044090_1280.jpg",
+    "description": "What's happen when development turns into a merry-go-round, how programmers put bricks and why you need to \"run\". Part 1.",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-01-12T07:05:24.184Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:41:10.896Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "complexity"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "complexity"
+      }
+    ]
+  },
+  {
+    "title": "Four problems of software development complexity (part 2)",
+    "tags": ["theory", "it", "software_development"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/Ky7xuc1YlaxmFzm0ZHYuJ/2641a302522c3542a4ae6ac7e3c1a850/laptop-4932432_1920_2__2___4___1_.jpg",
+    "description": "Why do you have to lead the chaos? Is it possible to test a hundred lines of code forever? And why AI is the \"atomic bomb\"?",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-01-12T07:29:20.501Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:39:50.367Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "complexity2"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "complexity2"
+      }
+    ]
+  },
+  {
+    "title": "Sciter в действии",
+    "tags": ["desktop", "sciter", "ux_ui"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/7lujc4PaxJvx7VIN5azO4N/2bc7d2b606d481b95ccd55b46d8dd91b/______________4_.png",
+    "description": "Здесь мы рассмотрим некоторые примеры использования движка при разработке интерфейсов для десктопных приложений.",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-03-28T23:56:15.076Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:36:50.093Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "sciterinaction"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "sciter-in-action"
+      }
+    ]
+  },
+  {
+    "title": "Sciter",
+    "tags": ["sciter", "user_experience", "desktop"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/5YTkASFUUX8COeHA8r7ki/b5acfd2f8e530547a73397bd70af4713/______________3_.png",
+    "description": "Что это такое и зачем он нужен?",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-03-22T14:20:07.204Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:34:59.743Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "aboutsciter"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "whatissciter"
+      }
+    ]
+  },
+  {
+    "title": "UI/UX агронавигатора: как превратить трактор в космолет",
+    "tags": ["cases", "design", "ux_ui", "web_application"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/1QYd7XegnJZQKBt9UtQwBR/b42e3397ae79ddafcd495232899f0387/____________.jpg",
+    "description": "Как мы делали дизайн с нуля для приложения, которое оптимизирует полевые работы.",
+    "note": "",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-05T19:04:01.191Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:31:49.229Z"
+      }
+    ],
+    "documentFormatVersion": "1",
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "aboutagroved"
+      },
+      {
+        "source": "contentful-ru",
+        "slug": "agronavigator"
+      }
+    ]
+  },
+  {
+    "title": "The dark side of Agile",
+    "tags": ["agile", "analytics", " business_process_improvement", "HWdTech", "it", "office", " useful tips"],
+    "imgSrc": "https://images.ctfassets.net/13g5no3omm60/7GncEdqyEMnPf17KuTjrHd/6e7102ec0ab5e8e48c250e6199ae2a35/workplace-1245776_1920.jpg",
+    "description": "Agile does not improve the speed of software development projects, so switching to Agile is not enough to achieve success on large projects.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-01-12T07:54:43.557Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:52:00.601Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-en",
+        "slug": "agile-dark-side"
+      }
+    ]
+  },
+  {
+    "title": "\"Poker IT\": правила игры и справочник",
+    "tags": ["it_poker", "games", "HWdTech", "it", "students", " training", "игры", "настолка", "настольная_игра"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/620I1AhTz9H3wCTIPJ9U9Z/e07eb10860b38215e055ed2ff341c225/______________5_.jpg",
+    "description": "Перед вами правила нашей второй айтишной настолки и пояснения к картам. ",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-08-30T07:21:05.678Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-12-31T08:31:32.658Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "poker_rules"
+      }
+    ]
+  },
+  {
+    "title": "IT-Таро:новогодние  предсказания на 2022 год ",
+    "tags": ["HWdTech"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/2IseeLx04dCb3ENGsowkZh/8a43a1dcb57854d18e01401d1972def2/coffee-4896485_1920_1.jpg",
+    "description": "Вытяни карту - узнай свою судьбу! ",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-12-13T06:44:03.880Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-12-27T04:56:13.501Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "newYear-2022"
+      }
+    ]
+  },
+  {
+    "title": "\"Распределенные системы\" Таненбаума и ван Стеена",
+    "tags": [
+      "it_books",
+      "книги_для_программистов",
+      "книги",
+      "теория_компьютерных_наук",
+      "обучение",
+      "распределенные_системы"
+    ],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1yu1iM4Gqqse62id0RIDJS/4c1efa86d897e124379760328645ac70/______________4_.jpg",
+    "description": "",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-11-23T11:06:32.710Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-11-23T11:49:01.806Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "books_tanenbaum"
+      }
+    ]
+  },
+  {
+    "title": "Хэллоуинское гадание: “Почему вы завалите проект?!”",
+    "tags": ["halloween"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1JDslRcFu3Q8dVb8fFt1be/b60af2a6ef33bcc9bef9b46b27d11aa8/___________________________.jpg",
+    "description": "Страшно, аж жуть! Вот хотите узнать, что самое плохое может случиться с важнейшим проектом вашей жизни? Из-за чего он упадет? Нажмите \"Получить предсказание\" - и пусть судьба решит!",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-10-11T06:10:46.798Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-27T12:31:16.884Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "halloween-2021"
+      }
+    ]
+  },
+  {
+    "title": "Как машинное обучение породило кризис научных исследований?",
+    "tags": ["Machine_Learning", "computer_science", "it", "машинное_обучение"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/7VjKX9HjQxgXRxcifNIzE/4befd05e23dd33c7c736073d5ff952a7/______________32_.jpg",
+    "description": "«Кризис воспроизводимости», неверные корреляции и другие подводные камни работы машин с данными.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:19.748Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-27T03:44:28.885Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "ml"
+      }
+    ]
+  },
+  {
+    "title": "Читаем Г. Эндрюса \"Основы многопоточного ... программирования\"",
+    "tags": [
+      "it_books",
+      "теория_компьютерных_наук",
+      "теория",
+      "программирование",
+      "обучение",
+      "книги",
+      "книги_для_программистов"
+    ],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/7AVvyrRAtXcr2YWStxCUMC/a2843183f2c4da07ecfa1a60ad64b664/______________3_.jpg",
+    "description": "Один из фаворитов нашей IT-библиотеки HWdTech LLC: книга Грегори Р. Эндрюса \"Основы многопоточного, параллельного и распределенного программирования\".\n",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-10-25T12:24:39.865Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-27T03:44:20.687Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "books_andrews"
+      }
+    ]
+  },
+  {
+    "title": "Месяц IT-стажировки: говорим о самом главном",
+    "tags": [" internship", "it", " training"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1G3YPp05I6OzAZartH3KPt/fa0644bae9d0b5bc6b7f35a9dd2a5d91/______________21_.jpg",
+    "description": "Сегодня ровно месяц как новая группа стажеров HWdTech с нами, и настало время подводить промежуточные итоги: что получается, что сложно и как дальше жить.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:27.986Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-26T06:14:59.243Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "intern2"
+      }
+    ]
+  },
+  {
+    "title": "Дегустация Cypress: как тестировали фреймворк для тестирования",
+    "tags": ["cypress", " software_testing", "тестирование", "автотесты"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/4CI58J2LQYgefvQPMX5ryw/159c23bd68dbb6db6870508eb1bcd741/______________30_.jpg",
+    "description": "Наш тестировщик Михаил Левашов о том, что такое Cypress, каковы его особенности а также о февральском обновлении платформы.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:20.092Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-26T06:03:54.908Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "cypress"
+      }
+    ]
+  },
+  {
+    "title": "Стресс-собеседование и мотивация «назло»",
+    "tags": ["it", "interview"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/3bHmhr1KZHyWpGuhtEBxFP/0dc011809708c7d97f8a1bf3af030db7/______________28_.jpg",
+    "description": "Нужно ли унижать кандидатов и что это даст?\nДвойное интервью о спорных методах подбора персонала: «не останавливайтесь, даже если вам в лицо говорят «вы не программист».",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:20.979Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-26T05:27:29.765Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "stress_interview"
+      }
+    ]
+  },
+  {
+    "title": "\"Зачем мне математика?!\" на примере агронавигатора",
+    "tags": ["математика", "алгоритмы", "агронавигатор"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/5NcZQYAvLzafFZGGMgFMAS/5cdcd9269b4c2583387377fbda3df6c6/______________52_.jpg",
+    "description": "А действительно - зачем??? Отвечаем на главный вопрос студентов IT-специальностей.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-31T07:59:21.531Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-26T05:14:28.355Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "agro-algorithms"
+      }
+    ]
+  },
+  {
+    "title": "Четыре проблемы сложности разработки ПО и где они обитают",
+    "tags": ["computer_science", "theory", "теория_компьютерных_наук", "теория"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/616IsDtV6mydQEDSg3PryC/9af1b85acc467747d2ee7c0db795da6b/______________45_.jpg",
+    "description": "Когда работа над проектом превращается в карусель, как программисты кладут кирпичи,\nи почему надо бежать. Часть 1.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:16.550Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-26T05:06:26.428Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "4-problems"
+      }
+    ]
+  },
+  {
+    "title": "Zero knowledge proof",
+    "tags": ["blockchain", " cryptocurrency"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1aZxtIPqpxsblpjYt4snYw/86eab4404762a3cbabef4c6159e12184/______________35_.jpg",
+    "description": "доказательство с нулевым разглашением на службе приватности в блокчейне",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:18.919Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-26T05:00:35.854Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "zkp"
+      }
+    ]
+  },
+  {
+    "title": "Фичи JavaScript, о которых вы должны знать",
+    "tags": ["перевод", "JS", "JavaScript", "front-end"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1ppSTTbIqExBn9qDQBcZwt/d743cdbec55b3f027bfb2c7f40cadfab/______________50_.jpg",
+    "description": "Перевели для вас статью о новой версии ECMAScript и предложениях, которые были реализованы в ней.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-31T06:41:15.557Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-26T04:50:06.725Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "features"
+      }
+    ]
+  },
+  {
+    "title": "Чеклист о кибербезопасности для начинающих разработчиков",
+    "tags": ["cybersecurity", "attacs", "cyber attacks", "security", "безопасность"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/47cWn6Zdy9AEMwNM7GPEXL/a96c6a8877a76c93793cb6467f04a4cf/______________51_.jpg",
+    "description": "Частые и опасные уязвимости. Данная статья написана в ознакомительных целях, чтобы каждый мог реализовать защиту от простых, но опасных атак на сайты и приложения.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-31T06:49:15.492Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-10-26T04:40:17.478Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "cybersecurity"
+      }
+    ]
+  },
+  {
+    "title": "Читаем «Шаблоны интеграции корпоратив-ных приложений» ",
+    "tags": [
+      "HWdTech",
+      "it",
+      "IT-стажировка",
+      "students",
+      "theory",
+      "обучение",
+      "программирование",
+      "теория",
+      "книги",
+      "книги_для_программистов"
+    ],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/3VoBZ2Wb3oMrCf5FF44yX2/a8d982c3d97bfe577400f589ab991eb3/______________1_.jpg",
+    "description": "Начинаем знакомство с IT-библиотекой HWdTech LLC с книги, посвященной паттернам.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-07-31T16:50:19.560Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-08-01T11:38:10.555Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "books_patterns"
+      }
+    ]
+  },
+  {
+    "title": "Математическое обоснование SOLID принципов | DotNetConf",
+    "tags": ["DotNetConf", "Логика_Хоара", "SOLID"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/2CbRUfCzyZywlPpM2S756v/56444b64f3a239b94e764eaed0c57510/______________13_.jpg",
+    "description": "Доклад Евгения Тюменцева на 10-й конференции DotNetConf (19 апреля 2015)",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-26T02:50:19.644Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-06-03T02:55:24.569Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "matematicheskoe-obosnovanie-solid-principov-10-dotnetconf"
+      }
+    ]
+  },
+  {
+    "title": "Котики в шляпах: начинаем решать задачу",
+    "tags": [" internship", "it", " training", "программирование", "IT-стажировка", "обучение"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1dXNBqzb4oCqO3MwSzOtYJ/f11d1f36fe7d8d1aa609a00ab63bc819/______________1_.jpg",
+    "description": "Мы видим, что наше задание для начинающих разработчиков получило большой отклик, а потому давайте начнем разбирать решение.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:30.901Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:50:15.336Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "learning-cats1"
+      }
+    ]
+  },
+  {
+    "title": "Котики в шляпах: выбираем фреймворк",
+    "tags": [" training", " internship", "it"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/17DkMUhq3drZQMdvTDA8hK/8c9335c1b0ab13e0aeebfb5b735611e6/______________16_.jpg",
+    "description": "Продолжаем вместе разбирать, как решается наша задача для начинающих разработчиков. На этот раз поговорим о фреймворках и библиотеках.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:29.552Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:49:35.404Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "learning-cats2"
+      }
+    ]
+  },
+  {
+    "title": "Как написать email о стажировке",
+    "tags": [" internship", "it", " training"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/5A26Zr34QS18K8ROBm0pec/cf6740abb8fd5da4d3699e71419826f8/______________3_.jpg",
+    "description": "Так, чтобы его заметили, открыли, прочитали, запомнили и дали ответ.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:29.757Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:48:04.269Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "learning-email"
+      }
+    ]
+  },
+  {
+    "title": "FAQ для студентов, молодых разработчиков и будущих стажеров",
+    "tags": [" internship", "it", " training"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/oqUQ6NXTLFxNSflTR3bgP/e8fb5b7d0d5035204bd52b9f8991f427/______________6_.jpg",
+    "description": "На этот раз речь о том, как войти в IT из глухой сибирской тайги, как понять, готовы ли вы к стажировке, и — бонусом — что смотреть, читать и слушать, чтобы получить нужные знания.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:30.250Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:47:16.978Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "learning-start"
+      }
+    ]
+  },
+  {
+    "title": "Математическое обоснование SOLID принципов | Dev2Dev",
+    "tags": ["SOLID", "презентация"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/5rvL7DF9bM8QQaB1lcH7m1/7198c755ce4fd717d315c0acb211973b/______________6_.jpg",
+    "description": "Доклад Евгения Тюменцева на конференции Dev2Dev (30 мая 2015)",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T09:35:45.953Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:44:19.605Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "matematicheskoe-obosnovanie-solid-principov-na-dev2dev-2015"
+      }
+    ]
+  },
+  {
+    "title": "Методы обнаружения разладки случайных процессов",
+    "tags": ["analytics", "Shewhart_control_charts", " statistics"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/70Q9emZBym4LSeabGIKVKT/8e5b7daa1997386ca3e08d7e33d2faa1/______________42_.jpg",
+    "description": "От лампочек до теории вероятности.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:17.390Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:42:23.949Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "mors"
+      }
+    ]
+  },
+  {
+    "title": "9 проектов, чтобы стать мастером front-end'а в 2020 году",
+    "tags": ["AngularJS", "front-end", "JavaScript", "ReactJS", " training"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/UwvHXYR4TLNVnWeH3pBmu/6c21c3bf9f5d11206d6914bf3eca92f7/______________24_.jpg",
+    "description": "Подборка из 9 проектов и туториалов, которые помогут вам развить свои навыки использования различных фреймворков и библиотек JavaScript.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:27.793Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:40:48.531Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "nineprojects"
+      }
+    ]
+  },
+  {
+    "title": "Об опыте применения jsonb в реальных проектах",
+    "tags": ["jsonb", "презентация", "PgConf.Russia"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1sd319S9JearFgJ7kfxlzj/55f5aad088ff86f89f76f1b9c6b9586c/______________2_.jpg",
+    "description": "Доклад Евгения Тюменцева на конференции PgConf.Russia 2016 (5 февраля 2016 / Москва, Известия Hall).",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T05:56:48.458Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:40:11.134Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "pgconf-russia-2016-ob-opyte-primeneniya-onb-v-realnyh-proektah"
+      }
+    ]
+  },
+  {
+    "title": "IT-стажерам и студентам: как сделать презентацию",
+    "tags": [" internship", "it", " training", "IT-стажировка", "презентация"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1K302aCVsfjfMJ5G4PDsfc/c3935fa3f5311260e012497b64b490db/______________2_.jpg",
+    "description": "Наши советы тем, кто хочет создать простую, но качественную презентацию. Без каких слайдов не обойтись, как оформить, что говорить, как отвечать на критику и многое другое.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:28.884Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:39:13.096Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "pres"
+      }
+    ]
+  },
+  {
+    "title": "Наш вклад в Google, Chromium, React и др. репозитории",
+    "tags": ["open_source", "HWdTech", "it"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1nWmWWiBv021SiirSIbloL/8d3bfa533ff46ebdd7cec379f63c4254/______________41_.jpg",
+    "description": "Почему для нас важен open source, какой вклад мы внесли в развитие открытого программного обеспечения и какими коммитами можем похвастаться.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:17.445Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:36:36.972Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "pullrequest"
+      }
+    ]
+  },
+  {
+    "title": "React Conf 2019: ТОП-5 докладов (часть 1)",
+    "tags": ["ReactJS", "front-end"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/66gCm9aDWweDRXo4Rv4POW/5cf9d18f47b33dcb1ff6c649a30ade30/______________1_.jpg",
+    "description": "Крупнейшая конференция от разработчиков ReactJS в разрезе: самые интересные доклады, фишки, фичи и инструменты этого года.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:20.333Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:34:10.143Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "reactconf1"
+      }
+    ]
+  },
+  {
+    "title": "Правила игры Hello · Word",
+    "tags": ["HWdTech", "it", "helloword", "настольная_игра", "настолка"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/6Alp1wr3DyBS29TUBQVuU/e2aafb5fefad32407687ec6a3965c6ec/______________37_.jpg",
+    "description": "Подробные правила разработанной нами настольной игры!",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:18.559Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:31:10.821Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "rules"
+      }
+    ]
+  },
+  {
+    "title": "Котики в шляпах: задача для начинающих программистов",
+    "tags": [" internship", " training", "обучение", "IT-стажировка"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/zyQuljjnRTc2LRquFOhvE/d63cd41923a28a57fb34fc19026c63e3/______________44_.jpg",
+    "description": "Нас часто спрашивают: что порешать, чтобы набраться опыта и одновременно наполнить портфолио. В ответ мы решили поделиться задачей, на которой учим своих стажеров. И помочь вам с ее решением.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:16.635Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:27:57.403Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "learning-cats"
+      }
+    ]
+  },
+  {
+    "title": "Как жить в согласии с SOLID?",
+    "tags": ["DotNetConf", "SOLID"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/4xkRgpX4H6B0f6Yjn4rMT9/77dda3399ddcd3876e5c8a7fbd1c3973/______________5_.jpg",
+    "description": "Доклад Евгения Тюменцева на 11-й конференции DotNetConf (31 октября 2015)",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T07:36:59.682Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:27:50.772Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "kak-zhit-v-soglasii-s-solid-vystuplenie-na-11-konferencii-dotnetconf"
+      }
+    ]
+  },
+  {
+    "title": "Подборка игр для изучения JS и веб-разработки",
+    "tags": ["games", " training", "JavaScript", "игры", "обучение"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/74dbRAqPyscL1CfDssENXJ/484403e3bd85125f131f94d5fc93a3f3/______________34_.jpg",
+    "description": "Бесплатные онлайн-игры со всей Сети, которые помогут быстро приобрести полезные навыки веб-разработки и освоиться с JavaScript.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:19.350Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:27:21.634Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "j_games"
+      }
+    ]
+  },
+  {
+    "title": "Автоматическое формирование UI по метаописанию",
+    "tags": ["ux_ui", "автоматизация"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/3KRlvqnT0z4xtiAz8moqv8/b088ee830de81c5aecbc2240e04a5395/______________7_.jpg",
+    "description": "Доклад Алексея Букурова с ИТ-субботника (7 ноября 2015)",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T09:27:31.143Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:27:15.228Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "it-subbotnik-avtomaticheskoe-formirovanie-ui-po-metaopisaniyu"
+      }
+    ]
+  },
+  {
+    "title": "Криптовалюта и VR «перехайпованные» тренды 2019 года",
+    "tags": ["ai", " cryptocurrency", "it"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/3lfHkx4HOPUl6Z11F7hZVQ/1ae027f492b97228b7a489f285c1fe54/______________25_.jpg",
+    "description": "Основатели и сотрудники стартапов рассказали, что они считают несправедливо переоцененными и недооцененными трендами в IT.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:27.727Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:26:54.768Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "ithype"
+      }
+    ]
+  },
+  {
+    "title": "Невыносимая легкость разработки под блокчейн",
+    "tags": ["blockchain", "Solidity"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/2P4NSMucjgw48i0QjkpUn7/e4d2398813349e52018a868d70fa81ad/______________40_.jpg",
+    "description": "Стоит ли учиться разработке смарт-контрактов? Правда ли, что там водятся легкие и бесконечные деньги? И кому они в итоге достанутся?",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:18.137Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:26:53.698Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "solidity"
+      }
+    ]
+  },
+  {
+    "title": "15 чистосердечных признаний из жизни IT-стажеров",
+    "tags": [" internship", "it", " training"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/7JK7qhrmYabzT7ouCY9MrL/100a5cc1e04a4e0083dbf1517d84e2b0/______________17_.jpg",
+    "description": "Поговорили о важном с нашими стажерами: чего ждут от IT-компаний, хотят ли покинуть Омск и что оказалось самым сложным по итогам первого стажировочного месяца.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:29.267Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:26:48.059Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "interview"
+      }
+    ]
+  },
+  {
+    "title": "Программирование бизнесу: как мы делаем ЭТО?",
+    "tags": ["программирование"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/5bw3USa2MiTzENxKSOrQdz/eb5565488853647aad77d41193ab6125/______________4_.jpg",
+    "description": "Как бизнес-задачи вывели программистов «из тени» и оказалось, что коммуникация — конек IT-сферы.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T07:47:24.334Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:26:23.134Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "howwedoit"
+      }
+    ]
+  },
+  {
+    "title": "Антивирус: как бороться с эпидемией в офисе",
+    "tags": ["it", "office", " useful tips", "офис", "здоровье"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/754Q3BWO1Li42RoW1kFKAK/6f34f2c859b854d642260543e829de3b/______________38_.jpg",
+    "description": "Расскажем о том, как бороться с ОРВИ. Полезные советы от специалистов прилагаются!",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:18.336Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:26:01.768Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "flu"
+      }
+    ]
+  },
+  {
+    "title": "«Смотри в березу!» или где находится Канада",
+    "tags": [" humor", "students", " internship"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/5SeCm680Qz8gqkbJouc3wf/774ad1537f4bec272cbdca3707155325/______________39_.jpg",
+    "description": "В нашей подборке: обмороки, пирожки, гири, мнемонические карты, курение в замочную скважину и другое оружие невидимого фронта, на котором студенты пытаются «списать», а преподаватели — поймать их на этом.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:18.275Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:25:37.768Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "exams"
+      }
+    ]
+  },
+  {
+    "title": "Нужно ли программисту образование",
+    "tags": [" internship", "it", " training", "Пятничный_наброс"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/655BXvPIqXWWwMzNoDCOCa/d696bd6917378347b511e463c0251633/______________15_.jpg",
+    "description": "О том, за что вас могут казнить в Средневековье, почему не надо перезакапывать кладбище и зачем всем нужны истории неуспеха.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:29.595Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:25:15.815Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "education"
+      }
+    ]
+  },
+  {
+    "title": "Как мы создали фирменный лого-пак",
+    "tags": ["cases"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/5Xk6z5mhXXlBXsEkNTmvxy/5ab321a5805c213d72ad65838c973535/______________12_.jpg",
+    "description": "и облегчили жизнь себе и всем вам",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-26T03:29:36.095Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:17:46.293Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "logo-pack"
+      }
+    ]
+  },
+  {
+    "title": "Искусственный интеллект для объявлений",
+    "tags": ["ai", "HWdTech", "извлечение_фактов", "искусственный_интеллект"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/3mvGa8ZZ7plmcvh7mPowov/d67de79e756d5988f154f305e0a55a5b/______________9_.jpg",
+    "description": "Семантический анализ фразы на русском языке для извлечения поискового запроса.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T21:51:48.904Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:17:23.233Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "razbor-fraz-estestvennogo-yazyka"
+      }
+    ]
+  },
+  {
+    "title": "Daily reports в IT: зачем внедрять и как упростить",
+    "tags": ["HWdTech", "it", " quality", " useful tips"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/5ZxhlR2V5AEI6g0wN0tUBR/8a8bb82a50f3d96c30ab84b609dde4a5/______________23_.jpg",
+    "description": "Говорим о нашем видении того, почему daily reports крайне важны именно в IT, что они дают заказчику и разработчику и как упростить процесс создания отчетов",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:27.982Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:17:06.721Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "dailyreport"
+      }
+    ]
+  },
+  {
+    "title": "Улучшение скорости отклика страниц в 10+ раз",
+    "tags": [
+      " микросервисная_архитектура",
+      "cases",
+      "HWdTech",
+      " microservice_architecture",
+      "web_application",
+      "новостной_портал"
+    ],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/6j58BRhevghpZ8FG2k11N7/ab62328f630ab6dea15aec28f4a8b7a5/______________8_.jpg",
+    "description": "Микросервисная архитектура значительно ускорила работу городского портала.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T19:58:17.081Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:16:55.869Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "razrabotka-novoj-versii-sajta-besplatnyh-obyavlenij"
+      }
+    ]
+  },
+  {
+    "title": "2020: тренды UX/UI дизайна в новом году",
+    "tags": ["design", "ux_ui", "дизайн"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1SZd8joP5Ha7g7OlVbxHVy/0190cb2cca44abd4358b7ac0d076a5f2/______________29_.jpg",
+    "description": "Голосовой интерфейс, AR/VR, сторителлинг и многое другое.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:20.607Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:16:49.077Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "design2020"
+      }
+    ]
+  },
+  {
+    "title": "Программирование глазами математика",
+    "tags": ["SOLID", "математика", "Логика_Хоара"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/4UdAZ3Lqtvwv7ec97KRURm/e9ed6f81e7970420b23062bfa8531d34/______________3_.jpg",
+    "description": "Доклад Евгения Тюменцева на конференции HappyDev lite (13 сентября 2015)",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T06:34:17.486Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:16:38.999Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "programmirovanie-glazami-matematika-vystuplenie-na-happydev-lite-2015"
+      }
+    ]
+  },
+  {
+    "title": "Плитка Grid с автоподгонкой и min-max",
+    "tags": ["css", "front-end"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/4zykhKoZmDoM1txilaKGxm/e5f35ce30a7ec573ee638bbf65ed935e/______________5_.jpg",
+    "description": "Сегодня переводим полезный пост с gedd.ski, «Grid Tile Layouts with auto-fit and minmax», от разработчика Дейва Геддеса, основателя Mastery Games.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:30.396Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:16:28.750Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "cssgrid"
+      }
+    ]
+  },
+  {
+    "title": "Подборка онлайн-игр для изучения CSS",
+    "tags": ["front-end", " training", "css", "games", "игры", "обучение"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/3ORfSMMSHKCISYnyVpSRmg/6142c4d4f7cd1c49718688b15e261ffc/______________33_.jpg",
+    "description": "Большая и интересная подборка бесплатных онлайн-игр, которые помогут вам улучшить свои навыки в CSS, даже если раньше вы вообще не знали, что это.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:19.665Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:16:16.664Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "cs_games"
+      }
+    ]
+  },
+  {
+    "title": "React Conf 2019: ТОП-5 докладов (часть 2)",
+    "tags": ["front-end", "ReactJS"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/66gCm9aDWweDRXo4Rv4POW/5cf9d18f47b33dcb1ff6c649a30ade30/______________1_.jpg",
+    "description": "Крупнейшая конференция от разработчиков ReactJS в разрезе: самые интересные доклады, фишки, фичи и инструменты этого года.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:36.061Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:16:16.595Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "reactconf2"
+      }
+    ]
+  },
+  {
+    "title": "Сервис мониторинга строительного оборудования",
+    "tags": ["cases"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/1yyOnYjjyYGbzOXQA6fv5p/13b985c8de63fafb904aa5dbcdbf684e/______________10_.jpg",
+    "description": "Более 80% американских строительных компаний пользуются им в своей работе",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-25T22:30:12.058Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:16:03.033Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "construction_monitoring_service"
+      }
+    ]
+  },
+  {
+    "title": "10 полезных фич Angular, которые вы, вероятно, не использовали",
+    "tags": ["AngularJS", "front-end", "JavaScript", " useful tips"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/2LG0YaiNlo0pEEek63SevF/542b581d0cdc3a851d3a22de4f140a17/______________31_.jpg",
+    "description": "Возможно, вы написали уже много приложений на Angular и уверены, что все о нем знаете . Чтобы быть уверенным на 100% - читайте дальше!",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:20.034Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:14:50.222Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "angularfeatures"
+      }
+    ]
+  },
+  {
+    "title": "Лучшие технологии JS для изучения в 2020 году",
+    "tags": ["AngularJS", "cypress", "front-end", "JavaScript", "ReactJS"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/2kIL4xTX1LD7nd45a0i34j/94adcc4ad8046c390b5413fd7c30b5a2/______________27_.jpg",
+    "description": "Знание каких фреймворков и технологий поможет вам получить хорошую работу в новом году и десятилетии.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:27.052Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:13:40.074Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "bestframeworks"
+      }
+    ]
+  },
+  {
+    "title": "Нужны ли «крошечные программисты»?",
+    "tags": ["HWdTech", "it"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/2nfe4TYzcNTA4L5ijFMsku/ad316130095b588d0154661cc7efcd44/______________47_.jpg",
+    "description": "По этому поводу мы пообщались с Евгением Тюменцевым, CEO Hello World! Technologies вот о чем: стоит ли учить программированию детей? Это ведь так интересно! Так и хочется поделиться знаниями. Вот только надо ли…",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-31T05:50:30.160Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:13:00.807Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "children"
+      }
+    ]
+  },
+  {
+    "title": "Трендовые технологии 2020 года и нового десятилетия",
+    "tags": ["ai", " cryptocurrency", "перевод", "автоматизация"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/2AlDU4MNd8HxD4U8yHoYSh/70c06ded900429b0b88f0c20b6d78777/______________46_.jpg",
+    "description": "ИИ, беспилотники, криптовалюта, расширенная реальность: что их ждет в ближайшие годы.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-31T05:58:49.015Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:12:39.556Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "techtrends"
+      }
+    ]
+  },
+  {
+    "title": "Как оценить эффективность труда интернет-тролля",
+    "tags": ["cases", "Shewhart_control_charts", "analytics", "карты_Шухарта", "кейс"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/4OFCbjygEQKA6S3kHY5KL2/09ed0980999ecc917ba1bc8f60ee44d3/______________43_.jpg",
+    "description": "В кейсе показано, как на основе статистического анализа данных, сделать оценку эффективности сотрудника с плохо формализуемым вкладом в результат",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:17.275Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:11:44.531Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "troll"
+      }
+    ]
+  },
+  {
+    "title": "5 вопросов, на которые должен ответить юнит-тест",
+    "tags": ["юнит_тесты", "перевод"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/Oz2l8ehZF1uNwwLFh8XRS/768b285c4a1ba2ae15676f90e3387ca8/______________48_.jpg",
+    "description": "Поговорим о том, как написать лучшие в мире тесты и как ими пользоваться для получения наиболее ценной информации о коде.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-31T05:56:14.773Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:08:52.583Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "5questionstest"
+      }
+    ]
+  },
+  {
+    "title": "Зачем программисту нужно знать математику?",
+    "tags": ["SOLID", "Логика_Хоара"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/361vqINjd9uu6Y8cbl07zT/f6b333b6cd840f9f2c8df4b450b5fc62/______________14_.jpg",
+    "description": "Доклад Евгения Тюменцева на конференции HappyDev lite (12 апреля 2015)",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-26T02:43:54.994Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:08:28.361Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "zachem-programmistu-nuzhno-znat-matematiku-na-happydev-lite-2015"
+      }
+    ]
+  },
+  {
+    "title": "Четыре проблемы сложности разработки ПО (часть 2)",
+    "tags": ["ai", "computer_science", "theory", "теория", "теория_компьютерных_наук"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/Ky7xuc1YlaxmFzm0ZHYuJ/e6aca5c3010de1c1bf9e0be8d8013c97/laptop-4932432_1920_2__2___4___1_.jpg",
+    "description": "Зачем возглавлять бардак, как тестировать 100 строк кода целую вечность и почему ИИ - наша «атомная бомба».",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:30.768Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:08:22.245Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "4-problems-part2"
+      }
+    ]
+  },
+  {
+    "title": "Первые впечатления от работы в IT",
+    "tags": ["HWdTech", " internship", "it", "students", " training", " useful tips"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/3CgvbrujLtaFxjb42Q94s4/3a87b589ae557aa5be8fcdc6e4bf303b/______________26_.jpg",
+    "description": "Мы попросили наших коллег, которые еще недавно были стажерами, рассказать о том, как им первая работа в IT-сфере и какой опыт они уже успели получить.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:27.237Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T09:03:30.717Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "firstwork"
+      }
+    ]
+  },
+  {
+    "title": "История провала",
+    "tags": ["cases", "startup", "story"],
+    "imgSrc": "https://images.ctfassets.net/mue5t0ky2rh8/3TrTiMNrvQ2syUme3sq1zH/efb9c88470f1ce7e106c7e460831c14e/______________36_.jpg",
+    "description": "Как мы сделали идеальный тайм-трекер, но наш стартап все равно прогорел.",
+    "note": "",
+    "documentFormatVersion": "1",
+    "history": [
+      {
+        "status": "created",
+        "date": "2021-05-21T07:23:18.789Z"
+      },
+      {
+        "status": "updated",
+        "date": "2021-05-31T08:28:35.090Z"
+      }
+    ],
+    "resources": [
+      {
+        "source": "contentful-ru",
+        "slug": "failstory"
+      }
+    ]
+  }
+]

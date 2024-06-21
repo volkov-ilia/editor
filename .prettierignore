@@ -1,0 +1,10 @@
+node_modules
+dist
+/**/.gitlab-ci.yml
+
+# API
+# doesn't work?!
+mongodb
+
+# Tests files
+**/coverage

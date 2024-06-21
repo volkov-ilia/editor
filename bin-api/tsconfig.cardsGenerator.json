@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "outDir": "dist/common",
+    "baseUrl": ".",
+    "experimentalDecorators": true
+  },
+  "include": [
+    "../common/tests/cardsGenerator/src",
+    "../common/tests/cardsGenerator/utils",
+    "../common/tests/cardsGenerator/types",
+    "index.d.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "../common/tests/cardsGenerator/dist",
+    "../common/tests/cardsGenerator/node_modules"
+  ]
+}

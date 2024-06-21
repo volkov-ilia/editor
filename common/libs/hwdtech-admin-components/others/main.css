@@ -1,0 +1,9 @@
+@import "./transition.css";
+@import "./slick.min.css";
+@import "./slick-theme.css";
+@import "./animation.css";
+@import "../node_modules/@reach/dialog/styles.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

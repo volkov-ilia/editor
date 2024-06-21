@@ -1,0 +1,20 @@
+*.log
+node_modules
+.next
+out
+.idea
+.vscode
+public/sitemap*
+
+# Local Netlify folder
+.netlify
+.vercel
+
+.env
+
+hwdtech-admin-components/lib/**/*.d.js
+hwdtech-admin-components/lib/**/*.ts
+hwdtech-admin-components/lib/**/*.cjs
+hwdtech-admin-components/lib/**/*.css
+
+pages/test.tsx

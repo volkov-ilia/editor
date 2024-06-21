@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "outDir": "dist/common/logs",
+    "baseUrl": "."
+  },
+  "include": ["../common/logs/utils"],
+  "exclude": ["./", "dist", "node_modules", "../common/logs/dist", "../common/logs/node_modules/node_modules"]
+}

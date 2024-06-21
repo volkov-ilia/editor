@@ -1,0 +1,5 @@
+export const FADE_RIGHT = "fade-in-right"
+export const FADE_LEFT = "fade-in-left"
+export const FADE_UP = "fade-in-up"
+export const FADE_BOTTOM = "fade-in-bottom"
+export const FADE_IN = "fade-in"

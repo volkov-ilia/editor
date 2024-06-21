@@ -1,0 +1,46 @@
+image: node:16.14
+
+workflow:
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+
+stages:
+  - init
+  - build
+  - test
+
+install:
+  variables:
+    PROJECT_NAME: auth-client
+    PROJECT_FOLDER: auth-client
+  stage: init
+  script: sh init.sh
+  artifacts:
+    paths:
+      - "$PROJECT_FOLDER/node_modules/"
+
+APIRequests:
+  variables:
+    PROJECT_NAME: APIRequests
+    PROJECT_FOLDER: common/utils/APIRequests
+  stage: init
+  script: sh init.sh
+  artifacts:
+    paths:
+      - "$PROJECT_FOLDER/node_modules/"
+
+build_auth-client:
+  variables:
+    PROJECT_NAME: auth-client
+    PROJECT_FOLDER: auth-client
+  stage: build
+  script: sh build.sh
+  needs:
+    - install
+    - APIRequests
+
+test_auth-client:
+  variables:
+    PROJECT_NAME: auth-client
+    PROJECT_FOLDER: auth-client
+  script: sh tests.sh

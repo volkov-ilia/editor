@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "\e[1;93m[pre-push] Running lint-staged (config is lint-staged.pre-push.js)\033[0m"
+yarn lint-staged -c lint-staged.pre-push.js
+echo "\e[1;93m[pre-push] Done.\033[0m"
